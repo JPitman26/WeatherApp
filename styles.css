@@ -64,3 +64,9 @@ button {
     font-size: 1.2em;
 }
 
+/* Set the margin-top of the .weather-temperature element to 10px */
+.weather-temperature {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
