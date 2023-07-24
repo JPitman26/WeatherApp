@@ -13,3 +13,6 @@ function getWeather() {
     var url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=665a35ed47396b1878a1a3b9ba8fa8ea";
     // This creates a URL that can be used to get the weather forecast for the city name.
   
+    var xhr = new XMLHttpRequest();
+    // This creates a new XMLHttpRequest object.
+  
