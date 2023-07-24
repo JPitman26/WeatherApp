@@ -26,3 +26,12 @@ p {
     margin-bottom: 1em;
 }
 
+/* Set the text alignment of the input to center */
+input {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
