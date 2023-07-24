@@ -13,3 +13,10 @@ body {
     background-size: cover;
 }
 
+/* Set the text alignment to center */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+}
+
