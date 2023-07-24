@@ -58,3 +58,9 @@ button {
     height: 50px;
 }
 
+/* Set the margin-top of the .weather-description element to 10px */
+.weather-description {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
