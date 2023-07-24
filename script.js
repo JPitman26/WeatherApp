@@ -19,3 +19,5 @@ function getWeather() {
     xhr.open("GET", url, true);
     // This opens the XMLHttpRequest object and sets the request method to "GET".
   
+    xhr.onload = function() {
+      // This function is called when the request is finished.
