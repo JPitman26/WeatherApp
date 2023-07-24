@@ -70,3 +70,10 @@ button {
     font-size: 1.2em;
 }
 
+/* Set the background color of the .weather-container element to #ffffff */
+.weather-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
