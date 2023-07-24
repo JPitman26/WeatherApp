@@ -39,3 +39,5 @@ function getWeather() {
         document.getElementById("weather").innerHTML = "Error: " + xhr.statusText;
       }
     };
+    xhr.onerror = function() {
+      // If there was an error with the network connection, the function displays an error message.
