@@ -46,3 +46,9 @@ button {
     cursor: pointer;
 }
 
+/* Set the font size of the #weather element to 1.5em */
+#weather {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
