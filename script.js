@@ -32,3 +32,10 @@ function getWeather() {
           document.getElementById("temperature").innerHTML = temperature + "°C";
         } catch (error) {
           // If the JSON response could not be parsed, the function displays an error message.
+          document.getElementById("weather").innerHTML = "Error parsing weather data.";
+        }
+      } else {
+        // If the request was not successful, the function displays an error message.
+        document.getElementById("weather").innerHTML = "Error: " + xhr.statusText;
+      }
+    };
