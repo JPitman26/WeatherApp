@@ -41,3 +41,8 @@ function getWeather() {
     };
     xhr.onerror = function() {
       // If there was an error with the network connection, the function displays an error message.
+      document.getElementById("weather").innerHTML = "Network error occurred.";
+    };
+    xhr.send();
+    // This sends the request to the API.
+  }
