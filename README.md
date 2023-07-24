@@ -70,7 +70,7 @@ If you want to contribute to this project and make it better, your help is great
 The Weather App is open-source and distributed under the [MIT License](LICENSE). Feel free to modify and use the code as per the terms of the license.
 
 ## GitHub Pages Link<!-- Replace the text inside the parentheses with your actual GitHub Pages link -->
-[Weather App on GitHub Pages](https://your-username.github.io/weather-app/)
+[Weather App on GitHub Pages](https://jpitman26.github.io/WeatherApp/)
 
 ---
 
