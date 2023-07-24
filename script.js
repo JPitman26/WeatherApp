@@ -21,3 +21,14 @@ function getWeather() {
   
     xhr.onload = function() {
       // This function is called when the request is finished.
+      if (xhr.status === 200) {
+        // If the request was successful, the function parses the JSON response and displays the weather forecast.
+        try {
+          var weatherData = JSON.parse(xhr.responseText);
+          var temperature = Math.floor(weatherData.main.temp - 273.15);
+          var weatherDescription = weatherData.weather[0].description;
+          var capitalizedWeatherDescription = weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1);
+          document.getElementById("weather").innerHTML = capitalizedWeatherDescription;
+          document.getElementById("temperature").innerHTML = temperature + "°C";
+        } catch (error) {
+          // If the JSON response could not be parsed, the function displays an error message.
